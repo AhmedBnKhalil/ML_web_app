@@ -19,6 +19,9 @@ st.markdown(
     --text-color: #31333F;
     --font: "Source Sans Pro", sans-serif;
 }
+    .menu .nav-item .nav-link.active[data-v-4323f8ce] {
+    background-color: #0dcaf0;
+}
     .stApp {
        --primary-color: #0dcaf0;
     }
