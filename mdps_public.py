@@ -13,11 +13,9 @@ st.markdown(
         """
     <style>
     .stApp {
-        background-color: #0074D9;
-        --primary-color: #0dcaf0;
+       --primary-color: #0dcaf0;
     }
     .stSidebar {
-        background-color: #0074D9;
         --primary-color: #0dcaf0;
 }
     }
