@@ -12,21 +12,21 @@ from streamlit_option_menu import option_menu
 st.markdown(
         """
     <style>
-    :root {
-    --primary-color: #0dcaf0;
+    
+    .menu .nav-item .nav-link.active[data-v-4323f8ce] {
+    background-color: #20c0f3;
+}
+    .stApp {
+      :root {
+    --primary-color: #20c0f3;
     --background-color: #f0f2f6;
     --secondary-background-color: #ffffff;
     --text-color: #31333F;
     --font: "Source Sans Pro", sans-serif;
 }
-    .menu .nav-item .nav-link.active[data-v-4323f8ce] {
-    background-color: #0dcaf0;
-}
-    .stApp {
-       --primary-color: #0dcaf0;
     }
     .stSidebar {
-        --primary-color: #0dcaf0;
+        --primary-color: #20c0f3;
 }
     }
     </style>
