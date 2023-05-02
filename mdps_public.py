@@ -10,20 +10,17 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 
 st.markdown(
-    """
+        """
     <style>
     .stApp {
-        
-        :root {
-         --primary-color: #20c0f3;
-         --background-color: #f0f2f6;
-         --secondary-background-color: #ffffff;
-         --text-color: #31333F;
-         --font: 'Montserrat Alternates', sans-serif;
+        background-color: #0074D9;
+        --primary-color: #0dcaf0;
+    }
+    .stSidebar {
+        background-color: #0074D9;
+        --primary-color: #0dcaf0;
 }
     }
-    
-    
     </style>
     """,
     unsafe_allow_html=True,
