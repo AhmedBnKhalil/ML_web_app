@@ -13,11 +13,17 @@ st.markdown(
     """
     <style>
     .stApp {
-        background-color: #0074D9;
+        
+        :root {
+         --primary-color: #20c0f3;
+         --background-color: #f0f2f6;
+         --secondary-background-color: #ffffff;
+         --text-color: #31333F;
+         --font: 'Montserrat Alternates', sans-serif;
+}
     }
-    .stSidebar {
-        background-color: #0074D9;
-    }
+    
+    
     </style>
     """,
     unsafe_allow_html=True,
