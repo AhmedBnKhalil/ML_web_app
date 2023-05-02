@@ -17,13 +17,11 @@ st.markdown(
     background-color: #20c0f3;
 }
     .stApp {
-      :root {
     --primary-color: #20c0f3;
     --background-color: #f0f2f6;
     --secondary-background-color: #ffffff;
     --text-color: #31333F;
     --font: "Source Sans Pro", sans-serif;
-}
     }
     .stSidebar {
         --primary-color: #20c0f3;
