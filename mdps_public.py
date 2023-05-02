@@ -18,7 +18,7 @@ st.markdown(
 }
     .stApp {
     --primary-color: #20c0f3;
-    --background-color: #ff4b4b;
+    background-color: #0074D9;
     --secondary-background-color: #ffffff;
     --text-color: #31333F;
     --font: "Source Sans Pro", sans-serif;
