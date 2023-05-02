@@ -9,7 +9,19 @@ import pickle
 import streamlit as st
 from streamlit_option_menu import option_menu
 
-st.set_page_config(theme="blue")
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-color: #0074D9;
+    }
+    .stSidebar {
+        background-color: #0074D9;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
 
 # loading the saved models
 
