@@ -9,29 +9,6 @@ import pickle
 import streamlit as st
 from streamlit_option_menu import option_menu
 
-st.markdown(
-        """
-    <style>
-    
-    .menu .nav-item .nav-link.active[data-v-4323f8ce] {
-    background-color: #20c0f3;
-}
-    .stApp {
-    --primary-color: #20c0f3;
-    background-color: #0074D9;
-    --secondary-background-color: #ffffff;
-    --text-color: #31333F;
-    --font: "Source Sans Pro", sans-serif;
-    }
-    .stSidebar {
-        primary-color: #20c0f3;
-}
-    }
-    </style>
-    """,
-    unsafe_allow_html=True,
-)
-
 # loading the saved models
 
 diabetes_model = pickle.load(open('diabetes_model.sav', 'rb'))
